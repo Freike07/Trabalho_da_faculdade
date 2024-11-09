@@ -56,12 +56,14 @@ section {
 
     div {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
+        gap: 5px;
 
         p{
-            text-align: justify;
+            text-align: center;
+            font-size: 13px;
         }
 
         img{
@@ -72,6 +74,25 @@ section {
 
 #produtos {
     background-color: #ccc;
+
+
+    .carousel {
+        max-width: 900px; /* Define a largura máxima do carrossel */
+        margin: 0 auto; /* Centraliza o carrossel */
+      }
+  
+      .carousel-item img {
+        width: 100%; /* Faz as imagens ocuparem toda a largura do carrossel */
+        height: auto; /* Mantém a proporção da imagem */
+      }
+  
+      .carousel-item {
+        height: 400px;
+      }
+  
+      .carousel-item img {
+        object-fit: cover;
+            height: 100%;}
 }
 
 #contato {
@@ -80,11 +101,10 @@ section {
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: #e4dcdc;
     text-align: center;
     padding: 1em 0;
 }
-
 
 
 

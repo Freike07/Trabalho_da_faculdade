@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Page - Nome da Organização</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -25,19 +26,19 @@
         <section id="sobre">
             <h2>Sobre Nós</h2>
             <br>
-            <br>
+        
             <div>
                 <p>A FitLife Academia é um espaço dedicado à saúde e bem-estar, com foco em oferecer treinos personalizados e um ambiente motivador para todos. Nosso objetivo é ajudar você a alcançar seus objetivos, seja para melhorar o condicionamento físico, perder peso ou ganhar massa muscular.
                     <br>
                     <br>
-                    <strong>O que nos diferencia:</strong>
+                    <strong>O que nos diferencia:</strong><br>
                     
                         Variedade de modalidades: Musculação, yoga, pilates, spinning, e mais.
                         Equipe qualificada: Instrutores experientes que criam treinos personalizados.
                         Ambiente acolhedor: Espaço inclusivo e motivador para todas as idades e níveis.
                     <br>
                     <br>
-                    <strong>Nosso compromisso:</strong> Garantir uma experiência de treino divertida, eficiente e sustentável, apoiando você em cada etapa da sua jornada fitness.</p>
+                    <strong>Nosso compromisso:</strong><br> Garantir uma experiência de treino divertida, eficiente e sustentável, apoiando você em cada etapa da sua jornada fitness.</p>
                 <img src="./imagens/academia-1024x683.jpg" alt="">
             </div>
 
@@ -45,7 +46,47 @@
 
         <section id="produtos">
             <h2>Produtos e Serviços</h2>
-            <p>Descrição dos produtos ou serviços oferecidos.</p>
+            <br>
+            <br>
+            
+            <div id="carrosselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imagens/como-montar-uma-academia-equipamentos.jpg" class="d-block w-100" alt="Imagem 1">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Primeira Imagem</h5>
+                      <p>Descrição da primeira imagem.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagens/yoga.jpeg" class="d-block w-100" alt="Imagem 2">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Segunda Imagem</h5>
+                      <p>Descrição da segunda imagem.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagens/pilates.jpeg" class="d-block w-100" alt="Imagem 3">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Terceira Imagem</h5>
+                      <p>Descrição da terceira imagem.</p>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Controles do Carrossel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrosselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrosselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Próximo</span>
+                </button>
+              </div>
+
+              <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
         </section>
 
         <section id="contato">
@@ -76,6 +117,9 @@
         <p>Desenvolvido por: Carlos Alexandre e equipe</p>
     </footer>
 
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
