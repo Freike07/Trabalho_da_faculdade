@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -43,11 +43,31 @@ section {
 }
 
 #home {
-    background-color: #f4f4f4;
+    background-color: #3b3838;
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
 }
 
 #sobre {
     background-color: #e2e2e2;
+    text-align: center;
+
+
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        p{
+            text-align: justify;
+        }
+
+        img{
+            height: 300px;
+        }
+    }
 }
 
 #produtos {
