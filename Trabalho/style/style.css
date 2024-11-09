@@ -74,7 +74,7 @@ section {
 
 #produtos {
     background-color: #ccc;
-
+    text-align: center;
 
     .carousel {
         max-width: 900px; /* Define a largura máxima do carrossel */
@@ -96,7 +96,17 @@ section {
 }
 
 #contato {
-    background-color: #b3b3b3;
+    background-color: #3b3838;
+    text-align: center;
+    color: #e2e2e2;
+
+    form{
+        color: black;  
+        background: rgba(255, 255, 255, 0.3); /* Fundo branco com 30% de opacidade */
+        backdrop-filter: blur(10px); /* Aplica o efeito de desfoque */
+        -webkit-backdrop-filter: blur(10px);
+        padding: 20px;
+    }
 }
 
 footer {
